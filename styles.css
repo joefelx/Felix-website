@@ -782,6 +782,10 @@ span.bold-text {
     font-size: 2rem;
     font-weight: 400;
   }
+  .project-heading5 h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
 
   .projects .button {
     font-size: 2rem;
@@ -858,6 +862,22 @@ span.bold-text {
     padding: 35px 4rem;
   }
 
+  .project-details5 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-details5 img {
+    width: 20rem;
+    padding-right: 0;
+  }
+
+  .project-details5 p {
+    font-size: 18px;
+    letter-spacing: -1px;
+    padding: 35px 4rem;
+  }
+
   .project-buttons {
     margin-top: 0rem;
     display: flex;
@@ -882,6 +902,9 @@ span.bold-text {
   }
 
   .project-heading4:hover + .project4-img {
+    opacity: 0;
+  }
+  .project-heading5:hover + .project5-img {
     opacity: 0;
   }
 
