@@ -46,6 +46,12 @@ $(document).ready(() => {
       $(".project-info4").toggle();
     });
   });
+  $(".project-heading5").click(() => {
+    $(".project-info5").toggle();
+    $("#button5").click(() => {
+      $(".project-info5").toggle();
+    });
+  });
 
   $("#button2").click(() => {
     $(".project-info2").toggle();
@@ -58,4 +64,11 @@ $(document).ready(() => {
   $("#button4").click(() => {
     $(".project-info4").toggle();
   });
+  $("#button5").click(() => {
+    $(".project-info5").toggle();
+  });
 });
+
+function func() {
+  alert("Not yet Finished");
+}
