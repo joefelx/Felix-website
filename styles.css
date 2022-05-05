@@ -80,7 +80,7 @@ span.bold-text {
   justify-content: space-between;
   position: fixed;
   align-items: center;
-  height: 6rem;
+  height: 5rem;
   width: 100%;
   z-index: 1200;
   background-color: rgb(255, 255, 255, .2);
